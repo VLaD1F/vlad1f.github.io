@@ -1,1 +1,1 @@
-.text_t{display:inline;color:#000;font-size:25px;padding-top:25px}.logo{width:200px;height:100px;display:inline;padding:10px}.backg{background-color:#aeaeae}
+.text_t{text-align:center;color:#000;font-size:25px;display:inline-block}.logo{width:190px;height:100px;padding:10px;display:inline}.backg{background-color:#aeaeae}@media (min-width:100px) and (max-width:320px){.logo{margin-left:50px}.text_t{margin-left:70px}}@media (min-width:321px) and (max-width:376px){.logo{margin-left:80px}.text_t{margin-left:90px}}
