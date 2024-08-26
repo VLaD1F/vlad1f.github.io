@@ -1,32 +1,54 @@
-.text_t	{
-	text-align: center;
-	color: #000;
-	font-size: 25px;
-	display: inline-block;
-
+.header{
+	display: block;
+	height: 7rem;
 }
 .logo{
-	width: 190px;
-	height: 100px;
-	padding: 10px;
+	display: inline-block;
+	width: 10rem;
+}
+.phone{
+	display: inline-block;
+	height: 7rem;
+	line-height: 7rem;
+	color: black;
+}
+.insta{
+	margin-left: 4rem;
+	position: absolute;
 	display: inline;
+	height: 3rem;
+	transform: translateY(65%);
+	vertical-align: middle;
 }
-.backg{
-	background-color: #aeaeae;
+.wb{
+	position: absolute;
+	display: inline;
+	height: 2.1rem;
+	transform: translateY(114%);
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 5px;
 }
-@media (min-width: 100px) and (max-width: 320px) {
-	.logo{
-		margin-left: 50px;
-	}
-	.text_t{
-		margin-left: 70px;
+.vk{
+	margin-left: 8.7rem;
+	position: absolute;
+	display: inline;
+	height: 2.1rem;
+	transform: translateY(115%);
+	vertical-align: middle;
+	border-radius: 5.5px;
+}
+@media (max-width: 1200px) {
+	.insta{
+		margin-left: 4.2rem;
 	}
 }
-@media (min-width: 321px) and (max-width: 376px) {
-	.logo{
-		margin-left: 80px;
-	}
-	.text_t{
-		margin-left: 90px;
-	}
+.phone-link{
+	width: 2rem;
+}
+.telef{
+	display: inline;
+	font-size: 13px;
+	margin-left: 0.5rem;
+	color: black;
 }
