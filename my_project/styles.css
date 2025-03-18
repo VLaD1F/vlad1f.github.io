@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: linear-gradient(90deg, #8a2be2, #ff00ff);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.8);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #222;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #222;
+    box-shadow: 0 0 10px #8a2be2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li a:hover {
+    background: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.content {
+    margin: 40px 0;
+    padding: 20px;
+    background: #222;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #8a2be2;
+    width: 100%;
+    text-align: center;
+}
+
+.form-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background: linear-gradient(90deg, #8a2be2, #ff00ff);
+    border: none;
+    padding: 15px 30px;  /* Увеличены размеры кнопки */
+    border-radius: 20px;  /* Кнопка с более округлыми углами */
+    color: white;
+    font-size: 18px;  /* Увеличен шрифт */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px rgba(138, 43, 226, 0.8); /* Легкая тень */
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 18px #ff00ff; /* Увеличенная тень при наведении */
+}
+
+.profile-pic {
+    width: 300px;
+    border-radius: 20%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #8a2be2;
+}
+
+input, textarea {
+    background: #2a2a4a;
+    color: white;
+    border: 1px solid #8a2be2;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+details {
+    margin: 20px;
+    padding: 10px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #8a2be2;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+details:hover {
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    background: #8a2be2;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.8);
+    bottom: 0;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #8a2be2; /* Фиолетовые границы */
+    transition: background-color 0.3s ease;
+}
+
+th {
+    background: #8a2be2;
+    color: white;
+    font-size: 16px;
+}
+
+td {
+    background: #333;
+    color: white;
+}
+
+tr:hover td {
+    background-color: #ff00ff; /* Подсветка строки при наведении */
+    color: white;
+}
+
+/* Добавляем уникальный стиль для таблицы */
+table thead {
+    background: #8a2be2;
+    color: white;
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.8);
+}
+
+table tbody tr:nth-child(even) {
+    background: #444;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #333;
+}
+
+/* Мелкие улучшения */
+table td, table th {
+    border-radius: 10px;
+}
